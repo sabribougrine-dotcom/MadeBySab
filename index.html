@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+```
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>
+    MadeBySab — Photographie
+</title>
+
+<link
+    rel="stylesheet"
+    href="style.css"
+>
+
+<!-- Icônes -->
+<script src="https://unpkg.com/lucide@latest"></script>
+```
+
+</head>
+
+<body>
+
+<!-- =====================================================
+     NAVIGATION
+====================================================== -->
+
+<nav class="navbar">
+
+```
+<a
+    href="#"
+    class="logo"
+>
+    MADEBYSAB
+</a>
+
+<div class="menu">
+
+    <a href="#work">
+        RÉALISATIONS
+    </a>
+
+    <a href="#about">
+        À PROPOS
+    </a>
+
+    <a href="#contact">
+        CONTACT
+    </a>
+
+</div>
+```
+
+</nav>
+
+<!-- =====================================================
+     ACCUEIL
+====================================================== -->
+
+<header class="hero">
+
+```
+<div class="hero-image">
+
+    <img
+        src="Images/accueil_resultat.jpg"
+        alt="MadeBySab Photographie"
+    >
+
+</div>
+
+<div class="hero-overlay">
+
+    <div class="hero-title">
+
+        <p>
+            PHOTOGRAPHE
+        </p>
+
+        <h1>
+            MadeBySab
+        </h1>
+
+        <div class="hero-location">
+            PARIS · CHANTILLY
+        </div>
+
+    </div>
+
+    <div class="hero-bottom">
+
+        <span>
+            PROJETS · ÉVÉNEMENTS · PORTRAITS · CRÉATIONS VISUELLES
+        </span>
+
+        <a href="#work">
+            DÉCOUVRIR ↓
+        </a>
+
+    </div>
+
+</div>
+```
+
+</header>
+
+<!-- =====================================================
+     RÉALISATIONS
+====================================================== -->
+
+<main id="work">
+
+```
+<section class="work-intro">
+
+    <p class="eyebrow">
+        MES RÉALISATIONS
+    </p>
+
+    <h2>
+        Une collection<br>
+        de moments.
+    </h2>
+
+</section>
+
+
+<!-- =================================================
+     CATÉGORIES
+================================================== -->
+
+<section class="projects">
+
+
+    <!-- SPORT -->
+
+    <div
+        class="project-card"
+        data-project="sport"
+    >
+
+        <img
+            src="Images/Sportcorpo/A7R08125_resultat.jpg"
+            alt="Photographie sportive"
+        >
+
+        <div class="project-overlay">
+
+            <span>
+                01
+            </span>
+
+            <div>
+
+                <h3>
+                    SPORT
+                </h3>
+
+                <p>
+                    VOIR LA GALERIE →
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- PAYSAGES -->
+
+    <div
+        class="project-card"
+        data-project="landscape"
+    >
+
+        <img
+            src="Images/paysages/A7R06301_resultat.jpg"
+            alt="Photographie de paysages"
+        >
+
+        <div class="project-overlay">
+
+            <span>
+                02
+            </span>
+
+            <div>
+
+                <h3>
+                    PAYSAGES
+                </h3>
+
+                <p>
+                    VOIR LA GALERIE →
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- LIFESTYLE -->
+
+    <div
+        class="project-card"
+        data-project="lifestyle"
+    >
+
+        <img
+            src="Images/lifestyle/A7R08625_resultat.jpg"
+            alt="Photographie lifestyle"
+        >
+
+        <div class="project-overlay">
+
+            <span>
+                03
+            </span>
+
+            <div>
+
+                <h3>
+                    LIFESTYLE
+                </h3>
+
+                <p>
+                    VOIR LA GALERIE →
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ÉVÉNEMENTS -->
+
+    <div
+        class="project-card"
+        data-project="events"
+    >
+
+        <img
+            src="Images/events/A7R07450_resultat.jpg"
+            alt="Photographie événementielle"
+        >
+
+        <div class="project-overlay">
+
+            <span>
+                04
+            </span>
+
+            <div>
+
+                <h3>
+                    ÉVÉNEMENTS
+                </h3>
+
+                <p>
+                    VOIR LA GALERIE →
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+<!-- =================================================
+     GALERIE
+================================================== -->
+
+<section
+    id="project-view"
+    class="project-view"
+>
+
+    <button
+        id="back-to-work"
+        class="back-button"
+    >
+        ← RETOUR AUX RÉALISATIONS
+    </button>
+
+
+    <div class="project-view-header">
+
+        <p
+            id="project-number"
+            class="eyebrow"
+        >
+        </p>
+
+        <h2
+            id="project-title"
+        >
+        </h2>
+
+    </div>
+
+
+    <div
+        id="project-gallery"
+        class="photo-grid"
+    >
+    </div>
+
+
+    <button
+        id="load-more"
+        class="load-more"
+    >
+        VOIR PLUS DE PHOTOS
+    </button>
+
+</section>
+
+
+<!-- =================================================
+     COLLABORATIONS
+================================================== -->
+
+<section class="clients">
+
+    <div class="clients-intro">
+
+        <p class="eyebrow">
+            COLLABORATIONS
+        </p>
+
+        <p class="clients-description">
+
+            Avec des sportifs,
+            des médias,
+            des équipes et
+            différents projets.
+
+        </p>
+
+    </div>
+
+
+    <div class="collab-marquee">
+
+        <div class="collab-track">
+
+            <div class="collab-item rmc">
+                RMC SPORT
+            </div>
+
+            <span>
+                ✦
+            </span>
+
+            <div class="collab-item">
+
+                <strong>
+                    ANZOR
+                </strong>
+
+                <small>
+                    PRO MMA
+                </small>
+
+            </div>
+
+            <span>
+                ✦
+            </span>
+
+            <div class="collab-item">
+
+                <strong>
+                    THÉO ULRICH
+                </strong>
+
+                <small>
+                    PRO MMA
+                </small>
+
+            </div>
+
+            <span>
+                ✦
+            </span>
+
+            <div class="collab-item">
+
+                <strong>
+                    YOUSSEF BOUGHANEM
+                </strong>
+
+                <small>
+                    PRO MMA
+                </small>
+
+            </div>
+
+            <span>
+                ✦
+            </span>
+
+            <div class="collab-item">
+
+                <strong>
+                    CHRISTOPHER ODENA
+                </strong>
+
+                <small>
+                    PRO MMA
+                </small>
+
+            </div>
+
+            <span>
+                ✦
+            </span>
+
+            <div class="collab-item">
+
+                <strong>
+                    MICHAEL ARJOUJ
+                </strong>
+
+                <small>
+                    PRO MMA
+                </small>
+
+            </div>
+
+            <span>
+                ✦
+            </span>
+
+            <div class="collab-item">
+
+                <strong>
+                    LE GRAND REX
+                </strong>
+
+                <small>
+                    ÉQUIPE DE BENOÎT SAINT-DENIS
+                </small>
+
+            </div>
+
+            <span>
+                ✦
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =================================================
+     À PROPOS
+================================================== -->
+
+<section
+    id="about"
+    class="about"
+>
+
+    <p class="eyebrow">
+        ABOUT ME
+    </p>
+
+    <h2>
+        ABOUT ME
+    </h2>
+
+    <p class="about-text">
+
+        Je m’appelle Sabri, passionné par la
+        photographie et basé entre Paris et
+        Chantilly.
+
+        <br><br>
+
+        Mon objectif est simple : immortaliser
+        vos moments, vos projets et les souvenirs
+        qui comptent pour vous, tout en vous
+        permettant de disposer de photos de
+        qualité pour mettre en valeur votre image.
+
+        <br><br>
+
+        J’interviens pour différents projets,
+        événements et créations visuelles,
+        en m’adaptant à chaque besoin.
+
+    </p>
+
+</section>
+
+
+<!-- =================================================
+     CONTACT
+================================================== -->
+
+<section
+    id="contact"
+    class="contact"
+>
+
+    <p class="eyebrow">
+        CONTACT
+    </p>
+
+    <h2>
+        Créons quelque chose.
+    </h2>
+
+
+    <div class="contact-cards">
+
+
+        <!-- E-MAIL -->
+
+        <a
+            href="mailto:madebysab60@gmail.com"
+            class="contact-card email-card"
+        >
+
+            <div class="contact-icon">
+
+                <i data-lucide="mail"></i>
+
+            </div>
+
+            <div class="contact-card-bottom">
+
+                <span>
+                    E-MAIL
+                </span>
+
+                <strong>
+                    madebysab60@gmail.com
+                </strong>
+
+            </div>
+
+            <div class="contact-arrow">
+                ↗
+            </div>
+
+        </a>
+
+
+        <!-- TÉLÉPHONE -->
+
+        <a
+            href="tel:+33652096400"
+            class="contact-card phone-card"
+        >
+
+            <div class="contact-icon">
+
+                <i data-lucide="phone"></i>
+
+            </div>
+
+            <div class="contact-card-bottom">
+
+                <span>
+                    TÉLÉPHONE
+                </span>
+
+                <strong>
+                    06 52 09 64 00
+                </strong>
+
+            </div>
+
+            <div class="contact-arrow">
+                ↗
+            </div>
+
+        </a>
+
+
+        <!-- INSTAGRAM -->
+
+        <a
+            href="https://www.instagram.com/_madebysab_/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-card instagram-card"
+        >
+
+            <div class="contact-icon">
+
+                <i data-lucide="instagram"></i>
+
+            </div>
+
+            <div class="contact-card-bottom">
+
+                <span>
+                    INSTAGRAM
+                </span>
+
+                <strong>
+                    @_madebysab_
+                </strong>
+
+            </div>
+
+            <div class="contact-arrow">
+                ↗
+            </div>
+
+        </a>
+
+    </div>
+
+</section>
+```
+
+</main>
+
+<!-- =====================================================
+     PIED DE PAGE
+====================================================== -->
+
+<footer class="site-footer">
+
+```
+<div class="footer-left">
+    MADEBYSAB
+</div>
+
+<div class="footer-center">
+    PHOTOGRAPHIE · PARIS · CHANTILLY
+</div>
+
+<div class="footer-right">
+    © 2026
+</div>
+```
+
+</footer>
+
+<!-- =====================================================
+     SCRIPTS
+====================================================== -->
+
+<script src="script.js"></script>
+
+<script>
+    lucide.createIcons();
+</script>
+
+</body>
+
+</html>
